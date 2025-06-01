@@ -18,10 +18,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](result\desktop.jpeg)
-![Tablet](result\tablet.jpeg)
-![Mobile](result\mobile.jpeg)
-![Mobile-menu](result\mobile-menu.jpeg)
+![Desktop](result/desktop.jpeg)
+![Tablet](result/tablet.jpeg)
+![Mobile](result/mobile.jpeg)
+![Mobile-menu](result/mobile-menu.jpeg)
 
 ## My process
 
