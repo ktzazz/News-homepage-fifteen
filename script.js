@@ -10,16 +10,19 @@ const overlay = document.querySelector(".overlay");
 function toggleMobileMenu() {
     menuButton.classList.toggle("change");
     const isOpen = menuButton.classList.contains("change"); // verify is menu is open
+    
 
     if (isOpen) {
-        mobileMenuContent.classList.toggle("open");  // opens the menu
+        mobileMenuContent.classList.add("open");
         overlay.classList.add("active"); // show the overlay
+       
     } else {
-        mobileMenuContent.style.width = "0"; // closes the menu
+        mobileMenuContent.classList.remove("open");
         overlay.classList.remove("active"); // hide the overlay
     }
 
-    mobileMenuContainer.setAttribute("aria-expanded", isOpen); // set aria attribute to open
+    mobileMenuContainer.setAttribute("aria-expanded", isOpen);
+
 }
 
 menuButton.addEventListener("click", toggleMobileMenu);

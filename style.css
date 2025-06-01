@@ -316,7 +316,7 @@ footer{
   overflow-x: hidden;
   transition: 0.5s;
   padding-block-start: 11rem;
-  z-index: 1;
+  z-index: 3;
 }
 
 .mobile-menu-content a {
