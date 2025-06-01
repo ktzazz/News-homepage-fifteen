@@ -27,7 +27,7 @@
   <div class="logo">
       <img src="./assets/images/logo.svg" alt="logo"> 
     </div>  
-  <nav aria-label="Main Navigation">
+  <nav id="desktop-nav" aria-label="Main Navigation">
   <a href="#">Home</a>
   <a href="#">New</a>
   <a href="#"> Popular</a>
@@ -36,16 +36,16 @@
   </nav>
 
   <!-- Mobile Navigation GOT IT FROM W3SCHOOLS -->
-  <div class="mobile-menu" aria-label="Mobile Navigation" aria-expanded="false">  
+  <div class="mobile-menu">  
 
     
-    <div class="container">
+    <div class="container" aria-label="Toggle mobile menu"  role="button" aria-expanded="false">
     <div class="bar1"></div>
     <div class="bar2"></div>
     <div class="bar3"></div>
     </div>
 
-    <div class="mobile-menu-content" id="sidenav">
+    <div class="mobile-menu-content" id="sidenav" role="navigation" aria-label="Mobile Navigation">
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">New</a></li>
@@ -54,7 +54,6 @@
       <li><a href="#">Categories</a></li>
     </ul>
     </div>
-   
     </div> 
 </div>
 </header>
